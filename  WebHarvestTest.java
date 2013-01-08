@@ -9,10 +9,10 @@ public class WebHarvestTest
  {
   try{
    String strPageURL =
-   "http://half-wit4u.blogspot.com/2011/01/web-scraping-using-java-api.html"
+   "http://imdb.com"
        ScraperConfiguration config =
          new ScraperConfiguration
-          ("K:/R&D/WebScrapping/src/basic/webHarvestConf.xml");
+          ("D:/jprograms/WebScrapping/src/basic/webHarvestConf.xml");
        Scraper scraper = new Scraper(config, "D:/");
        scraper.addVariableToContext("url",strPageURL);
        scraper.setDebug(true);
